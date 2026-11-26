@@ -1,4 +1,4 @@
-# statcite-com
+# StatCite
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-statcite-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://statcite.com/
+StatCite provides a free MCP server and REST API that lets users verify statistical figures against official series. Each response includes a full citation with source URL, licence, retrieval time, and a ready‑to‑paste citation sentence. The service covers data from the Eastern Caribbean Central Bank, Central Bank of Barbados, World Bank, IMF, ECB, BIS and more, enabling AI applications to check and cite economic statistics reliably.
+
+**Areas:** Statistics · Economics · API · Free · OpenData
+
+## StatCite on APIs.io
+
+Everything profiled for StatCite is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/statcite-com/](https://apis.io/providers/statcite-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (14)
+
+- [StatCite Compare API](https://apis.io/apis/statcite-com/statcite-com-compare-api/) — The Compare API from StatCite — 1 operation(s) for compare.
+- [StatCite Fx API](https://apis.io/apis/statcite-com/statcite-com-fx-api/) — The Fx API from StatCite — 1 operation(s) for fx.
+- [StatCite Health API](https://apis.io/apis/statcite-com/statcite-com-health-api/) — The Health API from StatCite — 1 operation(s) for health.
+- [StatCite Indicator API](https://apis.io/apis/statcite-com/statcite-com-indicator-api/) — The Indicator API from StatCite — 1 operation(s) for indicator.
+- [StatCite Indicators API](https://apis.io/apis/statcite-com/statcite-com-indicators-api/) — The Indicators API from StatCite — 1 operation(s) for indicators.
+- [StatCite Inflation API](https://apis.io/apis/statcite-com/statcite-com-inflation-api/) — The Inflation API from StatCite — 1 operation(s) for inflation.
+- [StatCite Search API](https://apis.io/apis/statcite-com/statcite-com-search-api/) — The Search API from StatCite — 1 operation(s) for search.
+- [StatCite Series API](https://apis.io/apis/statcite-com/statcite-com-series-api/) — The Series API from StatCite — 1 operation(s) for series.
+- [StatCite Snapshot API](https://apis.io/apis/statcite-com/statcite-com-snapshot-api/) — The Snapshot API from StatCite — 1 operation(s) for snapshot.
+- [StatCite Sources API](https://apis.io/apis/statcite-com/statcite-com-sources-api/) — The Sources API from StatCite — 1 operation(s) for sources.
+- [StatCite StatCite API](https://apis.io/apis/statcite-com/statcite-com-statcite-api-api/) — The StatCite API API from StatCite — 1 operation(s) for statcite api.
+- [StatCite Status API](https://apis.io/apis/statcite-com/statcite-com-status-api/) — The Status API from StatCite — 1 operation(s) for status.
+- [StatCite Verify API](https://apis.io/apis/statcite-com/statcite-com-verify-api/) — The Verify API from StatCite — 1 operation(s) for verify.
+- [StatCite Verify Claims API](https://apis.io/apis/statcite-com/statcite-com-verify-claims-api/) — The Verify Claims API from StatCite — 1 operation(s) for verify claims.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [StatCite Agentic Access](https://apis.io/agentic-access/statcite-com/statcite-com-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [Citation](https://apis.io/schemas/statcite-com/statcite-com-citation/)
+- [SeriesResult](https://apis.io/schemas/statcite-com/statcite-com-series-result/)
+- [VerifyResult](https://apis.io/schemas/statcite-com/statcite-com-verify-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Statcite Com Context](https://apis.io/jsonld/statcite-com/statcite-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [StatCite API Rules](https://apis.io/rules/statcite-com/statcite-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [StatCite Domain Security](https://apis.io/security/statcite-com/statcite-com-domain-security/)
+- [StatCite Vulnerability Disclosure](https://apis.io/security/statcite-com/statcite-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://statcite.com/)
+- [API reference](https://statcite.com/docs)
+- [Security](https://github.com/asokore/statcite/security/policy)
+- [Terms of service](https://statcite.com/terms)
+- [Privacy policy](https://statcite.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 39.0** — thin · rubric 0.27.0 · scored 2026-11-26
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 53.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 13.6 |
+| Access clarity | 21.1 |
+
+**Agent readiness 32.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/statcite-com/](https://apis.io/providers/statcite-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for StatCite: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/statcite-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
